@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Productivity Gate</string>
+    <string name="settings_title">הגדרות</string>
+
+    <string name="status_locked">חסום: יש לסמן את כל המשימות כדי לשחרר את האפליקציות</string>
+    <string name="status_unlocked">פתוח: כל האפליקציות זמינות היום</string>
+
+    <string name="button_mark_done">סיימתי את כל המשימות \u2713</string>
+    <string name="button_not_done">עדיין לא סיימתי</string>
+    <string name="button_enable_accessibility">הפעל הרשאת נגישות (נדרש כדי שהחסימה תעבוד)</string>
+    <string name="button_open_settings">הגדרות: אפליקציות חסומות וטיימרים</string>
+
+    <string name="toast_unlocked">האפליקציות שוחררו להיום. תהנה!</string>
+    <string name="toast_still_blocked">האפליקציות החסומות יישארו חסומות עד שתסמן הכל</string>
+    <string name="toast_not_all_checked">עדיין יש משימות לא מסומנות</string>
+    <string name="toast_enter_package">יש להזין שם חבילה (package name)</string>
+    <string name="toast_enter_package_and_minutes">יש להזין שם חבילה ומספר דקות</string>
+
+    <string name="section_tasks">המשימות היומיות שלי</string>
+    <string name="section_blocked_apps">אפליקציות חסומות עד שסיימתי משימות</string>
+    <string name="section_timers">טיימר יומי לאפליקציה (בדקות)</string>
+    <string name="section_sync">סנכרון עם המחשב</string>
+    <string name="section_reminders">תזכורות</string>
+
+    <string name="hint_new_task">משימה חדשה</string>
+    <string name="hint_package_name_help">שם החבילה (package name), למשל: com.android.chrome</string>
+    <string name="hint_package_example">com.instagram.android</string>
+    <string name="hint_minutes_per_day">דקות מותרות ליום</string>
+    <string name="button_add">הוסף</string>
+    <string name="button_save">שמור</string>
+    <string name="minutes_suffix">דקות ליום</string>
+    <string name="hint_sync_help">הדביקו כאן את כתובת ה-Firebase Realtime Database שלכם כדי לסנכרן משימות וסטטוס עם המחשב. השאירו ריק כדי לכבות סנכרון. ראו README.</string>
+    <string name="hint_sync_url">https://your-project-default-rtdb.firebaseio.com</string>
+    <string name="hint_reminder_help">כל כמה דקות להזכיר לך אם עדיין לא סימנת שסיימת (מינימום 15 בגלל מגבלת אנדרואיד)</string>
+    <string name="hint_minutes_between_reminders">דקות בין תזכורות</string>
+    <string name="toast_saved">נשמר</string>
+    <string name="toast_enter_minutes">יש להזין מספר דקות תקין</string>
+    <string name="reminder_notification_text">עדיין לא סימנת שסיימת את המשימות של היום. האפליקציות החסומות יישארו חסומות.</string>
+
+    <string name="block_message_tasks_not_done">האפליקציה הזו חסומה עד שתסמן שסיימת את המשימות של היום</string>
+    <string name="block_message_timer_up">נגמר הזמן היומי שהוקצב לאפליקציה הזו</string>
+    <string name="button_go_to_tasks">לך למשימות של היום</string>
+    <string name="button_go_home">חזרה למסך הבית</string>
+
+    <string name="accessibility_service_description">מאפשר ל-Productivity Gate לזהות אילו אפליקציות פתוחות כדי לחסום אפליקציות לא פרודוקטיביות עד שסיימת את המשימות שלך, ולאכוף טיימרים יומיים לאפליקציות.</string>
+</resources>
